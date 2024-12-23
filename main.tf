@@ -1,3 +1,8 @@
+
+provider "aws" {
+  region = "ca-central-1" 
+}
+
 terraform {
   backend "s3" {
     bucket         = "your-terraform-state-bucket"
